@@ -1,4 +1,6 @@
 # sketchware-desktop (soon...)
-<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/9772192a-c2ba-4429-98fb-d5a873668c77" />
-<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/03395e2e-4933-4f3f-82cc-6cbab6b54a87" />
-<img width="1579" height="966" alt="image" src="https://github.com/user-attachments/assets/cbcc35fd-598a-47a1-b681-c51ec17c5c4b" />
+<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/23f7d33e-390f-4eeb-bffc-608eb71f9376" />
+<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/2188fb8c-99da-4873-b7e5-cbd7a954326a" />
+<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/5209552e-e4de-4d66-8e27-415189aff2e6" />
+<img width="1584" height="941" alt="image" src="https://github.com/user-attachments/assets/bb77a0f5-bb6f-4ffb-9dd0-a8391a6ccc1b" />
+
