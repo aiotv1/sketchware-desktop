@@ -22,6 +22,7 @@ function createWindow() {
     backgroundColor: '#1e1f22',
     title: 'Sketchware Desktop',
     icon: path.join(__dirname, '..', 'public', 'icon.png'),
+    title: 'Sketchware Desktop',
     webPreferences: {
       preload: path.join(__dirname, 'preload.cjs'),
       contextIsolation: true,
@@ -107,7 +108,8 @@ ipcMain.handle('app:paths', async () => ({
   home: app.getPath('home'),
   userData: app.getPath('userData'),
   temp: app.getPath('temp'),
-  appDir: path.join(__dirname, '..'),
+  // packaged: bundled files (assets) live in resources/, next to app.asar
+  appDir: app.isPackaged ? process.resourcesPath : path.join(__dirname, '..'),
   platform: process.platform,
 }));
 ipcMain.handle('dialog:open', async (_e, opts) => {

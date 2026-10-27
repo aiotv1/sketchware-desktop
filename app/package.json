@@ -1,7 +1,7 @@
 {
   "name": "sketchware-desktop",
   "productName": "Sketchware Desktop",
-  "version": "0.1.0",
+  "version": "0.1.0-beta.1",
   "description": "Desktop edition of Sketchware Pro: build Android apps with blocks",
   "main": "electron/main.cjs",
   "private": true,
@@ -10,7 +10,39 @@
     "build": "tsc --noEmit && vite build",
     "electron": "electron .",
     "start": "vite build && electron .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dist:win": "npm run build && electron-builder --win portable --publish never"
+  },
+  "build": {
+    "appId": "com.idiken.sketchware-desktop",
+    "productName": "Sketchware Desktop",
+    "directories": {
+      "output": "release",
+      "buildResources": "public"
+    },
+    "files": [
+      "electron/**/*",
+      "dist/**/*",
+      "public/icon.png",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "public/icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "portable": {
+      "artifactName": "SketchwareDesktop-${version}-win-x64.exe"
+    }
   },
   "dependencies": {
     "@codemirror/lang-java": "^6.0.1",
@@ -33,6 +65,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "@xmldom/xmldom": "^0.8.10",
     "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
