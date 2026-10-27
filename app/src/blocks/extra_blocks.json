@@ -1,0 +1,2489 @@
+[
+ {
+  "name": "caseStrAnd",
+  "type": " ",
+  "typeName": "",
+  "code": "case %s:",
+  "color": "#e1a92a",
+  "spec": "case %s and",
+  "palette": "-1"
+ },
+ {
+  "name": "caseNumAnd",
+  "type": " ",
+  "typeName": "",
+  "code": "case ((int)%s):",
+  "color": "#e1a92a",
+  "spec": "case %d and",
+  "palette": "-1"
+ },
+ {
+  "name": "continue",
+  "type": "f",
+  "typeName": "",
+  "code": "continue;",
+  "color": "#e1a92a",
+  "spec": "continue",
+  "palette": "-1"
+ },
+ {
+  "name": "isEmpty",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.isEmpty()",
+  "color": "#e1a92a",
+  "spec": "%s isEmpty",
+  "palette": "-1"
+ },
+ {
+  "name": "fileutilcopydir",
+  "type": " ",
+  "typeName": "",
+  "code": "FileUtil.copyDir(%1$s, %2$s);",
+  "color": "#a1887f",
+  "spec": "copy dir path %s to path %s",
+  "palette": "-1"
+ },
+ {
+  "name": "instanceOfOperator",
+  "type": "b",
+  "typeName": "",
+  "code": "%1$s instanceof %2$s",
+  "color": "#e1a92a",
+  "spec": "%s instanceOf %s",
+  "palette": "-1"
+ },
+ {
+  "name": "checkViewVisibility",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.getVisibility() == View.%s",
+  "color": "#4a6cd4",
+  "spec": "visibility of %m.view equals %m.visible",
+  "palette": "-1"
+ },
+ {
+  "name": "intentHasExtra",
+  "type": "b",
+  "typeName": "",
+  "code": "getIntent().hasExtra(%s)",
+  "color": "#2ca5e2",
+  "spec": "Activity hasExtra key %s",
+  "palette": "-1"
+ },
+ {
+  "name": "intentSetType",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setType(%s);",
+  "color": "#2ca5e2",
+  "spec": "%m.intent setType %s",
+  "palette": "-1"
+ },
+ {
+  "name": "intentRemoveExtra",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.removeExtra(%s);",
+  "color": "#2ca5e2",
+  "spec": "%m.intent removeExtra key %s",
+  "palette": "-1"
+ },
+ {
+  "name": "fileContainsData",
+  "type": "b",
+  "typeName": "",
+  "code": "%1$s.contains(%2$s)",
+  "color": "#2ca5e2",
+  "spec": "%m.file contains %s",
+  "palette": "-1"
+ },
+ {
+  "name": "viewGetChildAt",
+  "type": "v",
+  "typeName": "View",
+  "code": "%1$s.getChildAt(%2$s)",
+  "color": "#4a6cd4",
+  "spec": "%m.view getChildAt %d",
+  "palette": "-1"
+ },
+ {
+  "name": "strParseInteger",
+  "type": "d",
+  "typeName": "",
+  "code": "Integer.parseInt(%s)",
+  "color": "#5cb722",
+  "spec": "parse int %s",
+  "palette": "-1"
+ },
+ {
+  "name": "stringSubSingle",
+  "type": "s",
+  "typeName": "",
+  "code": "%1$s.substring(%2$s)",
+  "color": "#5cb722",
+  "spec": "%s subString %d",
+  "palette": "-1"
+ },
+ {
+  "name": "webviewGetProgress",
+  "type": "d",
+  "typeName": "",
+  "code": "%1$s.getProgress()",
+  "color": "#4a6cd4",
+  "spec": "%m.webview getProgress",
+  "palette": "-1"
+ },
+ {
+  "name": "menuItemSetVisible",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setVisible(%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.MenuItem setVisible %b",
+  "palette": "-1"
+ },
+ {
+  "name": "menuItemSetEnabled",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setEnabled(%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.MenuItem setEnabled %b",
+  "palette": "-1"
+ },
+ {
+  "name": "menuFindItem",
+  "type": "v",
+  "typeName": "MenuItem",
+  "code": "menu.findItem(%s)",
+  "color": "#4a6cd4",
+  "spec": "MenuItem findItem %s.inputOnly",
+  "palette": "-1"
+ },
+ {
+  "name": "listAddAll",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.addAll(%2$s);",
+  "color": "#cc5b22",
+  "spec": "%m.listStr addAll from %m.list",
+  "palette": "-1"
+ },
+ {
+  "name": "fileCanExecute",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.canExecute()",
+  "color": "#a1887f",
+  "spec": "%m.File canExecute",
+  "palette": "-1"
+ },
+ {
+  "name": "fileCanRead",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.canRead()",
+  "color": "#a1887f",
+  "spec": "%m.File canRead",
+  "palette": "-1"
+ },
+ {
+  "name": "fileCanWrite",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.canWrite()",
+  "color": "#a1887f",
+  "spec": "%m.File canWrite",
+  "palette": "-1"
+ },
+ {
+  "name": "fileGetName",
+  "type": "s",
+  "typeName": "",
+  "code": "%s.getName()",
+  "color": "#a1887f",
+  "spec": "%m.File getName",
+  "palette": "-1"
+ },
+ {
+  "name": "fileGetParent",
+  "type": "s",
+  "typeName": "",
+  "code": "%s.getParent()",
+  "color": "#a1887f",
+  "spec": "%m.File getParent",
+  "palette": "-1"
+ },
+ {
+  "name": "fileGetPath",
+  "type": "s",
+  "typeName": "",
+  "code": "%s.getPath()",
+  "color": "#a1887f",
+  "spec": "%m.File getPath",
+  "palette": "-1"
+ },
+ {
+  "name": "fileIsHidden",
+  "type": "b",
+  "typeName": "",
+  "code": "%s.isHidden()",
+  "color": "#a1887f",
+  "spec": "%m.File isHidden",
+  "palette": "-1"
+ },
+ {
+  "name": "addPermission",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#493F5A",
+  "spec": "Permission Command Block: add %m.Permission",
+  "palette": "-1"
+ },
+ {
+  "name": "removePermission",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#493F5A",
+  "spec": "Permission Command Block: remove %m.Permission",
+  "palette": "-1"
+ },
+ {
+  "name": "addCustomVariable",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#493F5A",
+  "spec": "Custom Variable Block: add variable %s",
+  "palette": "-1"
+ },
+ {
+  "name": "addInitializer",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#493F5A",
+  "spec": "Initializer Block: add initializer %s",
+  "palette": "-1"
+ },
+ {
+  "name": "otpViewSetFieldCount",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setFieldCount(%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.otpview setFieldCount %d",
+  "palette": "-1"
+ },
+ {
+  "name": "otpViewSetOTPText",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setOTPText(%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.otpview setOTPText %s",
+  "palette": "-1"
+ },
+ {
+  "name": "otpViewGetOTPText",
+  "type": "s",
+  "typeName": "",
+  "code": "%1$s.getOTPText()",
+  "color": "#4a6cd4",
+  "spec": "%m.otpview getOTPText",
+  "palette": "-1"
+ },
+ {
+  "name": "otpViewSetOTPListener",
+  "type": "c",
+  "typeName": "",
+  "code": "%1$s.setOTPListener(new OTPListener() {\r\npublic void onOTPEntered(String _otp) {\r\n%2$s\r\n}\r\n});",
+  "color": "#4a6cd4",
+  "spec": "%m.otpview onOTPEntered -> _otp",
+  "palette": "-1"
+ },
+ {
+  "name": "signInButtonSetColorScheme",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setColorScheme(SignInButton.%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.signinbutton setColorScheme %m.SignButtonColor",
+  "palette": "-1"
+ },
+ {
+  "name": "signInButtonSetSize",
+  "type": " ",
+  "typeName": "",
+  "code": "%1$s.setSize(SignInButton.%2$s);",
+  "color": "#4a6cd4",
+  "spec": "%m.signinbutton setSize %m.SignButtonSize",
+  "palette": "-1"
+ },
+ {
+  "name": "bannerAdViewLoadAd",
+  "type": " ",
+  "typeName": "",
+  "code": "{\r\nAdRequest adRequest = new AdRequest.Builder().build();\r\n%1$s.loadAd(adRequest);\r\n}",
+  "color": "#4a6cd4",
+  "spec": "%m.adview load",
+  "palette": "-1"
+ },
+ {
+  "name": "rewardedVideoAdLoad",
+  "type": " ",
+  "typeName": "",
+  "code": "RewardedAd.load(%2$s.this, _reward_ad_unit_id, new AdRequest.Builder().build(), _%1$s_rewarded_ad_load_callback);",
+  "color": "#2ca5e2",
+  "spec": "%m.videoad load in %m.activity",
+  "palette": "-1"
+ },
+ {
+  "name": "rewardedVideoAdShow",
+  "type": " ",
+  "typeName": "",
+  "code": "%1s.show(%2$s.this, _%1$s_on_user_earned_reward_listener);",
+  "color": "#2ca5e2",
+  "spec": "%m.videoad show in %m.activity",
+  "palette": "-1"
+ },
+ {
+  "name": "CommandBlockJava",
+  "type": "c",
+  "typeName": "",
+  "code": "/*-JX4UA2y_f1OckjjvxWI.bQwRei-sLEsBmds7ArsRfi0xSFEP3Php97kjdMCs5ed\n>[%1$s]\n>%2$s\n>%3$s\n>%4$s\n>%5$s\n%6$s\nBpWI8U4flOpx8Ke66QTlZYBA_NEusQ7BN-D0wvZs7ArsRfi0.EP3Php97kjdMCs*/",
+  "color": "#493F5A",
+  "palette": "0",
+  "spec": "Java Command Block: reference %s distance %d frontend %d backend %d command %m.Command"
+ },
+ {
+  "name": "CommandBlockXML",
+  "type": "c",
+  "typeName": "",
+  "code": "/*AXAVajPNTpbJjsz-NGVTp08YDzfI-04kA7ZsuCl4GHqTQQiuWL45sV6Vf4gwK\n>[%1$s]\n>%2$s\n>%3$s\n>%4$s\n>%5$s\n>%6$s\n%7$s\nUi5_PNTJb21WO6OuGwQ3psk3su1LIvyXo_OAol-kVQBC5jtN_DcPLaRCJ0yXp*/",
+  "color": "#493F5A",
+  "palette": "0",
+  "spec": "XML Command Block: reference %s distance %d frontend %d backend %d command %m.Command xml name %s.inputOnly"
+ },
+ {
+  "name": "viewOnClick",
+  "type": "c",
+  "typeName": "",
+  "code": "%s.setOnClickListener(new View.OnClickListener() {\n@Override\npublic void onClick(View _view) {\n%s\n}\n});",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "When %m.view clicked"
+ },
+ {
+  "name": "setRecyclerViewLayoutParams",
+  "type": " ",
+  "typeName": "",
+  "code": "RecyclerView.LayoutParams _lp = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.%s, ViewGroup.LayoutParams.%s);\n_view.setLayoutParams(_lp);",
+  "color": "#4A6CD4",
+  "palette": "7",
+  "spec": "set RecyclerViewLayoutParams width %m.LayoutParam height %m.LayoutParam"
+ },
+ {
+  "name": "refreshingList",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.invalidateViews();",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.listview invalidate views"
+ },
+ {
+  "name": "ListViewAddHeader",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.addHeaderView(%s,%s,%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.listview add Header view %m.view data %s selectable? %b"
+ },
+ {
+  "name": "ListViewAddFooter",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.addFooterView(%s,%s,%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.listview add Footer view %m.view data %s selectable? %b"
+ },
+ {
+  "name": "listViewRemoveHeader",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.removeHeaderView(%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.listview remove Header %m.view"
+ },
+ {
+  "name": "listViewRemoveFooter",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.removeFooterView(%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.listview remove Footer %m.view"
+ },
+ {
+  "name": "progressdialogCreate",
+  "type": " ",
+  "typeName": "",
+  "code": "%s = new ProgressDialog(%s.this);",
+  "color": "#29A7E4",
+  "palette": "7",
+  "spec": "%m.progressdialog Create in %m.activity"
+ },
+ {
+  "name": "listViewSetSelection",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setSelection((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "7",
+  "spec": "%m.listview set selection %d"
+ },
+ {
+  "name": "EditTextdiableSuggestion",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext disable suggestions"
+ },
+ {
+  "name": "EditTextLines",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setLines(%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext set lines %d"
+ },
+ {
+  "name": "EditTextSingleLine",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setSingleLine(%2$s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext singleLine? %b"
+ },
+ {
+  "name": "EditTextShowError",
+  "type": " ",
+  "typeName": "",
+  "code": "((EditText)%s).setError(%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext show error %s"
+ },
+ {
+  "name": "EditTextSelectAll",
+  "type": " ",
+  "typeName": "",
+  "code": "((EditText)%s).selectAll();",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext select all text"
+ },
+ {
+  "name": "EditTextSetSelection",
+  "type": " ",
+  "typeName": "",
+  "code": "((EditText)%s).setSelection((int)%s, (int)%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext set selection start %d end %d"
+ },
+ {
+  "name": "EditTextSetMaxLines",
+  "type": " ",
+  "typeName": "",
+  "code": "((EditText)%s).setMaxLines((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext set max lines %d"
+ },
+ {
+  "name": "EdittextGetselectionStart",
+  "type": "d",
+  "typeName": "",
+  "code": "%s.getSelectionStart()",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext get selection start"
+ },
+ {
+  "name": "EdittextGetselectionEnd",
+  "type": "d",
+  "typeName": "",
+  "code": "%s.getSelectionEnd()",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.edittext get selection end"
+ },
+ {
+  "name": "performClick",
+  "type": " ",
+  "code": "%s.performClick();",
+  "color": "#4A6CD4",
+  "palette": "0",
+  "spec": "%m.view performClick"
+ },
+ {
+  "name": "AsyncTaskExecute",
+  "type": " ",
+  "typeName": "",
+  "code": "new %s().execute(%s);",
+  "color": "#29A7E4",
+  "palette": "7",
+  "spec": "%m.asynctask execute message %s"
+ },
+ {
+  "name": "AsyncTaskPublishProgress",
+  "type": " ",
+  "typeName": "",
+  "code": "publishProgress((int)%s);",
+  "color": "#29A7E4",
+  "palette": "7",
+  "spec": "publish progress %d"
+ },
+ {
+  "name": "progressdialogSetCanceledOutside",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setCanceledOnTouchOutside(%s);",
+  "color": "#29A7E4",
+  "palette": "7",
+  "spec": "%m.progressdialog setCancelableWhenTouchOutside %b"
+ },
+ {
+  "name": "datePickerDialogShow",
+  "type": " ",
+  "code": "DialogFragment datePicker = new DatePickerFragment();\r\ndatePicker.show(getSupportFragmentManager(), \"datePicker\");",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "DatePickerDialog show"
+ },
+ {
+  "name": "timePickerDialogShow",
+  "type": " ",
+  "code": "%s.show();",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.timepickerdialog show"
+ },
+ {
+  "name": "imageCrop",
+  "type": " ",
+  "code": "SketchwareUtil.CropImage(this, %s, (int) %s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "CropImageView fromFilePath %s RequestCode %d"
+ },
+ {
+  "name": "isConnected",
+  "type": " ",
+  "code": "SketchwareUtil.isConnected(getApplicationContext())",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "isConnected"
+ },
+ {
+  "name": "customImport",
+  "type": " ",
+  "code": "import %s;",
+  "color": "#EE7D15",
+  "palette": "-1",
+  "spec": "import %s.import"
+ },
+ {
+  "name": "customImport2",
+  "type": " ",
+  "code": "import %s;",
+  "color": "#EE7D15",
+  "palette": "-1",
+  "spec": "import %m.import"
+ },
+ {
+  "name": "customToast",
+  "type": " ",
+  "code": "SketchwareUtil.CustomToast(getApplicationContext(), %s, %s, %s, %s, %s, SketchwareUtil.%s);",
+  "color": "#8A55D7",
+  "palette": "-1",
+  "spec": "CustomToast %s textColor %m.color textSize %d bgColor %m.color cornerRadius %d gravity %m.gravity_t"
+ },
+ {
+  "name": "customToastWithIcon",
+  "type": " ",
+  "code": "SketchwareUtil.CustomToastWithIcon(getApplicationContext(), %s, %s, %s, %s, %s, SketchwareUtil.%s, R.drawable.%s);",
+  "color": "#8A55D7",
+  "palette": "-1",
+  "spec": "CustomToastWithIcon %s textColor %m.color textSize %d bgColor %m.color cornerRadius %d gravity %m.gravity_t Icon %m.resource"
+ },
+ {
+  "name": "LightStatusBar",
+  "type": " ",
+  "code": "getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);\r\ngetWindow().setStatusBarColor(0xFFFFFFFF);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "LightStatusBar"
+ },
+ {
+  "name": "hideKeyboard",
+  "type": " ",
+  "code": "SketchwareUtil.hideKeyboard(getApplicationContext());",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "Hide keyboard"
+ },
+ {
+  "name": "showKeyboard",
+  "type": " ",
+  "code": "SketchwareUtil.showKeyboard(getApplicationContext());",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "Show keyboard"
+ },
+ {
+  "name": "progressdialogSetTitle",
+  "type": " ",
+  "code": "%s.setTitle(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setTitle %s"
+ },
+ {
+  "name": "progressdialogSetMessage",
+  "type": " ",
+  "code": "%s.setMessage(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setMessage %s"
+ },
+ {
+  "name": "progressdialogSetMax",
+  "type": " ",
+  "code": "%s.setMax((int)%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setMax %d"
+ },
+ {
+  "name": "progressdialogSetProgress",
+  "type": " ",
+  "code": "%s.setProgress((int)%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setProgress %d"
+ },
+ {
+  "name": "progressdialogSetCancelable",
+  "type": " ",
+  "code": "%s.setCancelable(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setCancelable %b"
+ },
+ {
+  "name": "progressdialogSetCanceled",
+  "type": " ",
+  "code": "%s.setCanceledOnTouchOutside(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setCanceledOnTouchOutside %b"
+ },
+ {
+  "name": "progressdialogSetStyle",
+  "type": " ",
+  "code": "%s.setProgressStyle(ProgressDialog.%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog setProgressStyle %m.styleprogress"
+ },
+ {
+  "name": "progressdialogDismiss",
+  "type": " ",
+  "code": "%s.dismiss();",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog dismiss"
+ },
+ {
+  "name": "progressdialogShow",
+  "type": " ",
+  "code": "%s.show();",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.progressdialog show"
+ },
+ {
+  "name": "startService",
+  "type": " ",
+  "code": "startService(new Intent(getApplicationContext(), %s.class));",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "startService %m.activity"
+ },
+ {
+  "name": "stopService",
+  "type": " ",
+  "code": "stopService(new Intent(getApplicationContext(), %s.class));",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "stopService %m.activity"
+ },
+ {
+  "name": "sendBroadcast",
+  "type": " ",
+  "code": "sendBroadcast(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "sendBroadcast %s"
+ },
+ {
+  "name": "startActivityWithChooser",
+  "type": " ",
+  "code": "startActivity(Intent.createChooser(%s, %s));",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "StartActivity %m.intent with Chooser %s"
+ },
+ {
+  "name": "finishAffinity",
+  "type": "f",
+  "code": "finishAffinity();",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "Finish Affinity"
+ },
+ {
+  "name": "ternaryString",
+  "type": "s",
+  "code": "%s ? %s : %s",
+  "color": "#E1A928",
+  "palette": "-1",
+  "spec": "%b ? %s : %s"
+ },
+ {
+  "name": "ternaryNumber",
+  "type": "d",
+  "code": "%s ? (int)%s : (int)%s",
+  "color": "#E1A928",
+  "palette": "-1",
+  "spec": "%b ? %d : %d"
+ },
+ {
+  "name": "forLoopIncrease",
+  "type": "c",
+  "code": "for (%s = %s; %s; %s++) {\r\n%s\r\n}",
+  "color": "#E1A928",
+  "palette": "-1",
+  "spec": "for %m.varInt = %d; %b; %m.varInt++"
+ },
+ {
+  "name": "notifyDataSetChanged",
+  "type": " ",
+  "code": "notifyDataSetChanged();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "RefreshData"
+ },
+ {
+  "name": "getLastVisiblePosition",
+  "type": "d",
+  "code": "%s.getLastVisiblePosition()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.listview getLastVisiblePosition"
+ },
+ {
+  "name": "listscrollparam",
+  "type": "d",
+  "code": "ListView.%s",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.listscrollparam"
+ },
+ {
+  "name": "menuInflater",
+  "type": " ",
+  "code": "getMenuInflater().inflate(R.menu.%s, menu);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "Menu get menu from file %m.menu"
+ },
+ {
+  "name": "menuAddItem",
+  "type": " ",
+  "code": "menu.add(0, %s, 0, %s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "Menu add id %d title %s"
+ },
+ {
+  "name": "menuAddMenuItem",
+  "type": " ",
+  "code": "MenuItem %1$s = menu.add(Menu.NONE, %2$s, Menu.NONE, %3$s);\r\n%1$s.setIcon(R.drawable.%4$s);\r\n%s.setShowAsAction(MenuItem.%5$s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.menuitem add id %d title %s icon %m.resource showAsAction %m.menuaction"
+ },
+ {
+  "name": "menuAddSubmenu",
+  "type": "c",
+  "code": "SubMenu %s = menu.addSubMenu(%s);\r\n%s",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "Menu add %m.submenu title %s;"
+ },
+ {
+  "name": "submenuAddItem",
+  "type": " ",
+  "code": "%s.add(0, %s, 0, %s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.submenu add id %d title %s"
+ },
+ {
+  "name": "getAssetFile",
+  "type": " ",
+  "code": "java.io.InputStream %s = getAssets().open(%s);",
+  "color": "#A1887F",
+  "palette": "-1",
+  "spec": "%m.inputstream getFileFromAsset path %s"
+ },
+ {
+  "name": "renameFile",
+  "type": " ",
+  "code": "{\njava.io.File dYx4Y = new java.io.File(%1$s);\njava.io.File e5Cyk = new java.io.File(%2$s);\ndYx4Y.renameTo(e5Cyk);\n}",
+  "color": "#A1887F",
+  "palette": "-1",
+  "spec": "rename file path %s to %s"
+ },
+ {
+  "name": "copyAssetFile",
+  "type": "s",
+  "code": "SketchwareUtil.copyFromInputStream(%s)",
+  "color": "#A1887F",
+  "palette": "-1",
+  "spec": "%m.inputstream to String"
+ },
+ {
+  "name": "sortListmap",
+  "type": " ",
+  "code": "SketchwareUtil.sortListMap(%s, %s, %s, %s);",
+  "color": "#CC5B21",
+  "palette": "-1",
+  "spec": "sort %m.listMap key %s isNumber %b isAscending %b"
+ },
+ {
+  "name": "deleteMapFromListmap",
+  "type": "a",
+  "code": "%2$s.remove(%1$s);",
+  "color": "#CC5B21",
+  "palette": "-1",
+  "spec": "delete %m.varMap of %m.listMap"
+ },
+ {
+  "name": "html",
+  "type": "s",
+  "typeName": "",
+  "code": "Html.fromHtml(%s)",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "html %s"
+ },
+ {
+  "name": "reverse",
+  "type": "s",
+  "code": "new StringBuilder(%s).reverse().toString()",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "reverse %s"
+ },
+ {
+  "name": "toHashCode",
+  "type": "d",
+  "code": "%s.hashCode()",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "toHashCode %s"
+ },
+ {
+  "name": "stringMatches",
+  "type": "b",
+  "code": "%s.matches(%s)",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "%s matches RegExp %s"
+ },
+ {
+  "name": "stringReplaceFirst",
+  "type": "s",
+  "code": "%s.replaceFirst(%s, %s)",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "%s replace first RegExp %s with %s"
+ },
+ {
+  "name": "stringReplaceAll",
+  "type": "s",
+  "code": "%s.replaceAll(%s, %s)",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "%s replace all RegExp %s with %s"
+ },
+ {
+  "name": "stringSplitToList",
+  "type": " ",
+  "code": "%3$s = new ArrayList<String>(Arrays.asList(%1$s.split(%2$s)));",
+  "color": "#5CB721",
+  "palette": "-1",
+  "spec": "split %s RegExp %s into %m.listStr"
+ },
+ {
+  "name": "mapContainValue",
+  "type": "b",
+  "code": "%s.containsValue(%s)",
+  "color": "#EE7D15",
+  "palette": "-1",
+  "spec": "%m.varMap contain value %s"
+ },
+ {
+  "name": "getHeight",
+  "type": "d",
+  "typeName": "",
+  "code": "%s.getHeight()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view getHeight"
+ },
+ {
+  "name": "getWidth",
+  "type": "d",
+  "typeName": "",
+  "code": "%s.getWidth()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view getWidth"
+ },
+ {
+  "name": "removeView",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.removeView(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view removeView %m.view"
+ },
+ {
+  "name": "removeViews",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.removeAllViews();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view removeAllViews"
+ },
+ {
+  "name": "addView",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.addView(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view addView %m.view"
+ },
+ {
+  "name": "addViews",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.addView(%s, %s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view addView %m.view index %d"
+ },
+ {
+  "name": "setGravity",
+  "type": " ",
+  "code": "%s.setGravity(Gravity.%s | Gravity.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setGravity %m.gravity_v %m.gravity_h"
+ },
+ {
+  "name": "setImageIdentifier",
+  "type": " ",
+  "code": "%s.setImageResource(getResources().getIdentifier(%s, \"drawable\", getPackageName()));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.imageview set image by name %s"
+ },
+ {
+  "name": "setImageCustomRes",
+  "type": " ",
+  "code": "%s.setImageResource(R.drawable.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.imageview setImage %m.image"
+ },
+ {
+  "name": "getRating",
+  "type": "d",
+  "code": "%s.getRating()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.ratingbar getRating"
+ },
+ {
+  "name": "setRating",
+  "type": " ",
+  "code": "%s.setRating((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.ratingbar setRating%d"
+ },
+ {
+  "name": "setNumStars",
+  "type": " ",
+  "code": "%s.setNumStars((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.ratingbar setNumStars %d"
+ },
+ {
+  "name": "setStepSize",
+  "type": " ",
+  "code": "%s.setStepSize((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.ratingbar setStepSize %d"
+ },
+ {
+  "name": "timepickerSetIs24Hour",
+  "type": " ",
+  "code": "%s.setIs24HourView(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.timepicker setIs24Hour %b"
+ },
+ {
+  "name": "timepickerSetCurrentHour",
+  "type": " ",
+  "code": "%s.setCurrentHour((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.timepicker setCurrentHour %d"
+ },
+ {
+  "name": "timepickerSetCurrentMinute",
+  "type": " ",
+  "code": "%s.setCurrentMinute((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.timepicker setCurrentMinute%d"
+ },
+ {
+  "name": "timepickerSetHour",
+  "type": " ",
+  "code": "%s.setHour((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.timepicker setHour %d"
+ },
+ {
+  "name": "timepickerSetMinute",
+  "type": " ",
+  "code": "%s.setMinute((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.timepicker setMinute%d"
+ },
+ {
+  "name": "autoComSetData",
+  "type": " ",
+  "code": "%s.setAdapter(new ArrayAdapter<String>(getBaseContext(), android.R.layout.simple_list_item_1, %s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.actv setListData %m.listStr"
+ },
+ {
+  "name": "setThreshold",
+  "type": " ",
+  "code": "%s.setThreshold(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.mactv setThreshold %d"
+ },
+ {
+  "name": "setTokenizer",
+  "type": " ",
+  "code": "%s.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.mactv CommaTokenizer"
+ },
+ {
+  "name": "multiAutoComSetData",
+  "type": " ",
+  "code": "%s.setAdapter(new ArrayAdapter<String>(getBaseContext(), android.R.layout.simple_list_item_1, %s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.mactv setListData %m.listStr"
+ },
+ {
+  "name": "listSetSelector",
+  "type": " ",
+  "code": "%s.setSelector(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.listview setSelector %m.color"
+ },
+ {
+  "name": "gridSetCustomViewData",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setGridCustomViewData %m.listMap"
+ },
+ {
+  "name": "gridSetNumColumns",
+  "type": " ",
+  "code": "%s.setNumColumns((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setNumColumns %d"
+ },
+ {
+  "name": "gridSetColumnWidth",
+  "type": " ",
+  "code": "%s.setColumnWidth((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setColumnWidth %d"
+ },
+ {
+  "name": "gridSetVerticalSpacing",
+  "type": " ",
+  "code": "%s.setVerticalSpacing((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setVerticalSpacing %d"
+ },
+ {
+  "name": "gridSetHorizontalSpacing",
+  "type": " ",
+  "code": "%s.setHorizontalSpacing((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setHorizontalSpacing %d"
+ },
+ {
+  "name": "gridSetStretchMode",
+  "type": " ",
+  "code": "%s.setStretchMode(GridView.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.gridview setStretchMode %m.gridstretchmode"
+ },
+ {
+  "name": "videoviewSetVideoUri",
+  "type": " ",
+  "code": "%s.setVideoURI(Uri.parse(%s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview setVideoUri %s"
+ },
+ {
+  "name": "videoviewStart",
+  "type": " ",
+  "code": "%s.start();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview start"
+ },
+ {
+  "name": "videoviewPause",
+  "type": " ",
+  "code": "%s.pause();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview pause"
+ },
+ {
+  "name": "videoviewStop",
+  "type": " ",
+  "code": "%s.stopPlayback();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview stopPlayback"
+ },
+ {
+  "name": "videoviewIsPlaying",
+  "type": "b",
+  "code": "%s.isPlaying()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview isPlaying"
+ },
+ {
+  "name": "videoviewCanPause",
+  "type": "b",
+  "code": "%s.canPause()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview canPause"
+ },
+ {
+  "name": "videoviewCanSeekForward",
+  "type": "b",
+  "code": "%s.canSeekForward()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview canSeekForward"
+ },
+ {
+  "name": "videoviewCanSeekBackward",
+  "type": "b",
+  "code": "%s.canSeekBackward()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview canSeekBackward"
+ },
+ {
+  "name": "videoviewGetDuration",
+  "type": "d",
+  "code": "%s.getDuration()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview getDuration"
+ },
+ {
+  "name": "videoviewGetCurrentPosition",
+  "type": "d",
+  "code": "%s.getCurrentPosition()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.videoview getCurrentPosition"
+ },
+ {
+  "name": "listSetTranscriptMode",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setTranscriptMode(ListView.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.listview setTranscriptMode %m.transcriptmode"
+ },
+ {
+  "name": "listSetStackFromBottom",
+  "type": " ",
+  "typeName": "",
+  "code": "%s.setStackFromBottom(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.listview setStackFromBottom %b"
+ },
+ {
+  "name": "setElevation",
+  "type": " ",
+  "code": "%s.setElevation((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setElevation %d"
+ },
+ {
+  "name": "setTextSize",
+  "type": " ",
+  "code": "%s.setTextSize((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textview setTextSize %d"
+ },
+ {
+  "name": "setColorFilterView",
+  "type": " ",
+  "code": "%s.getBackground().setColorFilter(%s, PorterDuff.Mode.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setColorFilter %m.color with %m.porterduff"
+ },
+ {
+  "name": "setCornerRadiusView",
+  "type": " ",
+  "code": "%s.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b) { this.setCornerRadius(a); this.setColor(b); return this; } }.getIns((int)%s, %s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setCornerRadius %d color %m.color"
+ },
+ {
+  "name": "setGradientBackground",
+  "type": " ",
+  "code": "%s.setBackground(new GradientDrawable(GradientDrawable.Orientation.BR_TL, new int[] {%s,%s}));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setGradientBackground %m.color and %m.color"
+ },
+ {
+  "name": "setStrokeView",
+  "type": " ",
+  "code": "%s.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b, int c) { this.setStroke(a, b); this.setColor(c); return this; } }.getIns((int)%s, %s, %s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setStroke %d strokeColor %m.color bgColor %m.color"
+ },
+ {
+  "name": "setRadiusAndStrokeView",
+  "type": " ",
+  "code": "%s.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b, int c, int d) { this.setCornerRadius(a); this.setStroke(b, c); this.setColor(d); return this; } }.getIns((int)%s, (int)%s, %s, %s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setCornerRadius %d stroke %d strokeColor %m.color bgColor %m.color"
+ },
+ {
+  "name": "showSnackbar",
+  "type": "c",
+  "code": "com.google.android.material.snackbar.Snackbar.make(%s, %s, com.google.android.material.snackbar.Snackbar.LENGTH_SHORT).setAction(%s, new View.OnClickListener(){\r\n@Override\r\npublic void onClick(View _view) {\r\n%s\r\n}\r\n}).show();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view showSnackbar text %s actionText %s onClick"
+ },
+ {
+  "name": "addTab",
+  "type": " ",
+  "code": "%1$s.addTab(%1$s.newTab().setText(%2$s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout addTabTitle %s"
+ },
+ {
+  "name": "setupWithViewPager",
+  "type": " ",
+  "code": "%s.setupWithViewPager(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setupWithViewPager %m.viewpager"
+ },
+ {
+  "name": "setInlineLabel",
+  "type": " ",
+  "code": "%s.setInlineLabel(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setInlineLabel %b"
+ },
+ {
+  "name": "setTabTextColors",
+  "type": " ",
+  "code": "%s.setTabTextColors(%s, %s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setTabTextColors Normal %m.color Selected %m.color"
+ },
+ {
+  "name": "setTabRippleColor",
+  "type": " ",
+  "code": "%s.setTabRippleColor(new android.content.res.ColorStateList(new int[][]{new int[]{android.R.attr.state_pressed}}, \r\n\r\nnew int[] {%s}));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setTabRippleColor %m.color"
+ },
+ {
+  "name": "setSelectedTabIndicatorColor",
+  "type": " ",
+  "code": "%s.setSelectedTabIndicatorColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setSelectedTabIndicatorColor %m.color"
+ },
+ {
+  "name": "setSelectedTabIndicatorHeight",
+  "type": " ",
+  "code": "%s.setSelectedTabIndicatorHeight(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.tablayout setSelectedTabIndicatorHeight %d"
+ },
+ {
+  "name": "returnTitle",
+  "type": "f",
+  "code": "return %s;",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "return Title %s"
+ },
+ {
+  "name": "returnFragment",
+  "type": "f",
+  "code": "return new %s();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "return Fragment %m.activity"
+ },
+ {
+  "name": "bottomMenuAddItem",
+  "type": " ",
+  "code": "%s.getMenu().add(0, %s, 0, %s).setIcon(R.drawable.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.bottomnavigation add item id %d title %s icon %m.resource"
+ },
+ {
+  "name": "codeviewSetCode",
+  "type": " ",
+  "code": "%s.setCode(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.codeview setCode %s"
+ },
+ {
+  "name": "codeviewSetTheme",
+  "type": " ",
+  "code": "%s.setTheme(Theme.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.codeview setTheme %m.cv_theme"
+ },
+ {
+  "name": "codeviewSetLanguage",
+  "type": " ",
+  "code": "%s.setLanguage(Language.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.codeview setLanguage %m.cv_language"
+ },
+ {
+  "name": "codeviewApply",
+  "type": " ",
+  "code": "%s.apply();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.codeview apply"
+ },
+ {
+  "name": "fabIcon",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "FAB set icon %m.resource"
+ },
+ {
+  "name": "fabSize",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "FAB setSize %m.fabsize"
+ },
+ {
+  "name": "fabVisibility",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "FAB setVisibility %m.fabvisible"
+ },
+ {
+  "name": "setBgDrawable",
+  "type": " ",
+  "code": "%s.setBackgroundDrawable(getResources().getDrawable(R.drawable.%s));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.view setBackgroundDrawable %m.drawable"
+ },
+ {
+  "name": "setCardBackgroundColor",
+  "type": " ",
+  "code": "%s.setCardBackgroundColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.cardview setCardBackgroundColor %m.color"
+ },
+ {
+  "name": "setCardRadius",
+  "type": " ",
+  "code": "%s.setRadius((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.cardview setCornerRadius %d"
+ },
+ {
+  "name": "setCardElevation",
+  "type": " ",
+  "code": "%s.setCardElevation((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.cardview setCardElevation %d"
+ },
+ {
+  "name": "setPreventCornerOverlap",
+  "type": " ",
+  "code": "%s.setPreventCornerOverlap(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.cardview setPreventCornerOverlap %b"
+ },
+ {
+  "name": "setUseCompatPadding",
+  "type": " ",
+  "code": "%s.setUseCompatPadding(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.cardview setUseCompatPadding %b"
+ },
+ {
+  "name": "spnSetCustomViewData",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.spinner setSpinnerCustomViewData %m.listMap"
+ },
+ {
+  "name": "lottieSetAnimationFromAsset",
+  "type": " ",
+  "code": "%s.setAnimation(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.lottie setAnimationFromAsset %s"
+ },
+ {
+  "name": "lottieSetAnimationFromJson",
+  "type": " ",
+  "code": "%s.setAnimationFromJson(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.lottie setAnimationFromJson %s"
+ },
+ {
+  "name": "lottieSetAnimationFromUrl",
+  "type": " ",
+  "code": "%s.setAnimationFromUrl(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.lottie setAnimationFromUrl %s"
+ },
+ {
+  "name": "lottieSetRepeatCount",
+  "type": " ",
+  "code": "%s.setRepeatCount((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.lottie setRepeatCount %d"
+ },
+ {
+  "name": "lottieSetSpeed",
+  "type": " ",
+  "code": "%s.setSpeed((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.lottie setSpeed %d"
+ },
+ {
+  "name": "recyclerSetCustomViewData",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview setRecyclerCustomViewData %m.listMap"
+ },
+ {
+  "name": "recyclerSetLayoutManager",
+  "type": " ",
+  "code": "%s.setLayoutManager(new LinearLayoutManager(this));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview setLayoutManager"
+ },
+ {
+  "name": "recyclerSetLayoutManagerHorizontal",
+  "type": " ",
+  "code": "%s.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview set Horizontal LayoutManager"
+ },
+ {
+  "name": "recyclerSetHasFixedSize",
+  "type": " ",
+  "code": "%s.setHasFixedSize(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview setHasFixedSize %b"
+ },
+ {
+  "name": "recyclerSmoothScrollToPosition",
+  "type": " ",
+  "code": "%s.smoothScrollToPosition((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview smoothScrollToPosition %d"
+ },
+ {
+  "name": "recyclerScrollToPositionWithOffset",
+  "type": " ",
+  "code": " ((LinearLayoutManager) %s.getLayoutManager()).scrollToPositionWithOffset((int)%s, (int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerview scrollToPosition %d offset %d "
+ },
+ {
+  "name": "recyclerscrollparam",
+  "type": "d",
+  "code": "RecyclerView.%s",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.recyclerscrollparam"
+ },
+ {
+  "name": "pagerscrollparam",
+  "type": "d",
+  "code": "ViewPager.%s",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.pagerscrollparam"
+ },
+ {
+  "name": "pagerSetCustomViewData",
+  "type": " ",
+  "code": "",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager setPagerCustomViewData %m.listMap"
+ },
+ {
+  "name": "pagerSetFragmentAdapter",
+  "type": " ",
+  "code": "%2$s.setTabCount(%3$s);\r\n%1$s.setAdapter(%2$s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager setFragmentAdapter %m.fragmentAdapter TabCount %d"
+ },
+ {
+  "name": "pagerGetOffscreenPageLimit",
+  "type": "d",
+  "code": "%s.getOffscreenPageLimit()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager getOffscreenPageLimit"
+ },
+ {
+  "name": "pagerSetOffscreenPageLimit",
+  "type": " ",
+  "code": "%s.setOffscreenPageLimit((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager setOffscreenPageLimit %d"
+ },
+ {
+  "name": "pagerGetCurrentItem",
+  "type": "d",
+  "code": "%s.getCurrentItem()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager getCurrentItem"
+ },
+ {
+  "name": "pagerSetCurrentItem",
+  "type": " ",
+  "code": "%s.setCurrentItem((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager setCurrentItem %d"
+ },
+ {
+  "name": "onSwipeRefreshLayout",
+  "type": "c",
+  "code": "%s.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {\r\n@Override\r\npublic void onRefresh() {\r\n%s\r\n}\r\n});",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "When %m.swiperefreshlayout refreshed"
+ },
+ {
+  "name": "setRefreshing",
+  "type": " ",
+  "code": "%s.setRefreshing(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.swiperefreshlayout setRefreshing %b"
+ },
+ {
+  "name": "viewOnLongClick",
+  "type": "c",
+  "code": "%s.setOnLongClickListener(new View.OnLongClickListener() {\r\n@Override\r\npublic boolean onLongClick(View _view) {\r\n%s\r\nreturn true;\r\n}\r\n});",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "When %m.view long clicked"
+ },
+ {
+  "name": "viewOnTouch",
+  "type": "c",
+  "code": "%s.setOnTouchListener(new View.OnTouchListener(){\r\n@Override\r\npublic boolean onTouch(View _view, MotionEvent _motionEvent){\r\n%s\r\nreturn true;\r\n}\r\n});",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "When %m.view touched"
+ },
+ {
+  "name": "checkboxOnChecked",
+  "type": "c",
+  "code": "%s.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {\r\n@Override\r\npublic void onCheckedChanged(CompoundButton cb, boolean isChecked) {\r\n%s\r\n}});",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "When %m.checkbox checked"
+ },
+ {
+  "name": "checkboxIsChecked",
+  "type": "b",
+  "code": "isChecked",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "isChecked"
+ },
+ {
+  "name": "getBadgeCount",
+  "type": "d",
+  "code": "%s.getBadgeCount();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview getBadgeCount"
+ },
+ {
+  "name": "setBadgeNumber",
+  "type": " ",
+  "code": "%s.setBadgeCount(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview setBadgeNumber %d"
+ },
+ {
+  "name": "setBadgeString",
+  "type": " ",
+  "code": "%s.setBadgeCount(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview setBadgeString %s"
+ },
+ {
+  "name": "setBadgeBackground",
+  "type": " ",
+  "code": "%s.setBadgeBackground(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview setBadgeBackground %m.color"
+ },
+ {
+  "name": "setBadgeTextColor",
+  "type": " ",
+  "code": "%s.setTextColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview setBadgeTextColor %m.color"
+ },
+ {
+  "name": "setBadgeTextSize",
+  "type": " ",
+  "code": "%s.setTextSize((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.badgeview setBadgeTextSize %d"
+ },
+ {
+  "name": "setCustomLetter",
+  "type": " ",
+  "code": "%s.setCustomLetter(new String[]%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.sidebar setCustomLetter String[] %s.inputOnly"
+ },
+ {
+  "name": "setBubbleColor",
+  "type": " ",
+  "code": "%s.setBubbleColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setBubbleColor %m.color"
+ },
+ {
+  "name": "setBubbleStrokeColor",
+  "type": " ",
+  "code": "%s.setStrokeColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setStrokeColor %m.color"
+ },
+ {
+  "name": "setBubbleStrokeWidth",
+  "type": " ",
+  "code": "%s.setStrokeWidth((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setStrokeWidth %d"
+ },
+ {
+  "name": "setBubbleCornerRadius",
+  "type": " ",
+  "code": "%s.setCornersRadius((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setCornerRadius %d"
+ },
+ {
+  "name": "setBubbleArrowHeight",
+  "type": " ",
+  "code": "%s.setArrowHeight((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setArrowHeight %d"
+ },
+ {
+  "name": "setBubbleArrowWidth",
+  "type": " ",
+  "code": "%s.setArrowWidth((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setArrowWidth %d"
+ },
+ {
+  "name": "setBubbleArrowPosition",
+  "type": " ",
+  "code": "%s.setArrowPosition((float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "BubbleLayout %m.view setArrowPosition %d"
+ },
+ {
+  "name": "patternToString",
+  "type": "s",
+  "code": "PatternLockUtils.patternToString(%s, %s)",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview getPattern from %m.listStr to String "
+ },
+ {
+  "name": "patternToMD5",
+  "type": "s",
+  "code": "PatternLockUtils.patternToMD5(%s, %s)",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview getPattern from %m.listStr to MD5"
+ },
+ {
+  "name": "patternToSha1",
+  "type": "s",
+  "code": "PatternLockUtils.patternToSha1(%s, %s)",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview getPattern from %m.listStr to SHA1"
+ },
+ {
+  "name": "patternSetDotCount",
+  "type": " ",
+  "code": "%s.setDotCount((int)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview setDotCount %d "
+ },
+ {
+  "name": "patternSetNormalStateColor",
+  "type": " ",
+  "code": "%s.setNormalStateColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview setNormalStateColor %m.color"
+ },
+ {
+  "name": "patternSetCorrectStateColor",
+  "type": " ",
+  "code": "%s.setCorrectStateColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview setCorrectStateColor %m.color"
+ },
+ {
+  "name": "patternSetWrongStateColor",
+  "type": " ",
+  "code": "%s.setWrongStateColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview setWrongStateColor %m.color"
+ },
+ {
+  "name": "patternSetViewMode",
+  "type": " ",
+  "code": "%s.setViewMode(PatternLockView.PatternViewMode.%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview setViewMode %m.patternviewmode"
+ },
+ {
+  "name": "patternLockClear",
+  "type": " ",
+  "code": "%s.clearPattern();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.patternview clearPattern"
+ },
+ {
+  "name": "tilSetBoxBgColor",
+  "type": " ",
+  "code": "%s.setBoxBackgroundColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setBoxBackgroundColor %m.color"
+ },
+ {
+  "name": "tilSetBoxStrokeColor",
+  "type": " ",
+  "code": "%s.setBoxStrokeColor(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setBoxStrokeColor %m.color"
+ },
+ {
+  "name": "tilSetBoxBgMode",
+  "type": " ",
+  "code": "%s.setBoxBackgroundMode(TextInputLayout.BOX_BACKGROUND_%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setBoxBackgroundMode %m.til_box_mode"
+ },
+ {
+  "name": "tilSetBoxCornerRadii",
+  "type": " ",
+  "code": "%s.setBoxCornerRadii((float)%s, (float)%s, (float)%s, (float)%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setBoxCornerRadius TL %d TR %d BL %d BR %d "
+ },
+ {
+  "name": "tilSetError",
+  "type": " ",
+  "code": "%s.setError(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setError %s "
+ },
+ {
+  "name": "tilSetErrorEnabled",
+  "type": " ",
+  "code": "%s.setErrorEnabled(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setErrorEnabled %b "
+ },
+ {
+  "name": "tilSetCounterEnabled",
+  "type": " ",
+  "code": "%s.setCounterEnabled(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setCounterEnabled %b "
+ },
+ {
+  "name": "tilSetCounterMaxLength",
+  "type": " ",
+  "code": "%s.setCounterMaxLength(%s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout setCounterMaxLength %d "
+ },
+ {
+  "name": "tilGetCounterMaxLength",
+  "type": "d",
+  "code": "%s.getCounterMaxLength()",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.textinputlayout getCounterMaxLength"
+ },
+ {
+  "name": "YTPVLifecycle",
+  "type": " ",
+  "code": "getLifecycle().addObserver(%1$s);",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.youtubeview getLifecycle"
+ },
+ {
+  "name": "YTPVSetListener",
+  "type": "c",
+  "code": "%1$s.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {\r\n  @Override\r\n  public void onReady(@NonNull YouTubePlayer youTubePlayer) {\r\n    String videoId = %2$s;\r\n    youTubePlayer.cueVideo(videoId, 0);\r\n    %3$s\r\n  }\r\n});",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.youtubeview addYouTubePlayerListener VideoID %s"
+ },
+ {
+  "name": "launchApp",
+  "type": " ",
+  "code": "%s = getPackageManager().getLaunchIntentForPackage(%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.intent set app package %s"
+ },
+ {
+  "name": "changeStatebarColour",
+  "type": " ",
+  "code": "if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {\r\nfinal Window window = %s.this.getWindow();\r\nwindow.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);\r\nwindow.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);\r\nwindow.setStatusBarColor(%s);\r\n}",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.activity set statebar color %m.color"
+ },
+ {
+  "name": "Dialog SetIcon",
+  "type": " ",
+  "code": "%s.setIcon(R.drawable.%s);",
+  "color": "#2CA5E2",
+  "palette": "-1",
+  "spec": "%m.dialog setIcon %m.resource_bg"
+ },
+ {
+  "name": "ViewPagerNotifyOnDtatChange",
+  "type": " ",
+  "code": "((PagerAdapter)%s.getAdapter()).notifyDataSetChanged();",
+  "color": "#4A6CD4",
+  "palette": "-1",
+  "spec": "%m.viewpager notifyDataSetChanged"
+ },
+ {
+  "name": "returnMap",
+  "type": " ",
+  "typeName": "",
+  "code": "return %s;",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %m.varMap"
+ },
+ {
+  "name": "returnListStr",
+  "type": " ",
+  "typeName": "",
+  "code": "return %s;",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %m.listStr"
+ },
+ {
+  "name": "returnListMap",
+  "type": " ",
+  "typeName": "",
+  "code": "return %s;",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %m.listMap"
+ },
+ {
+  "name": "returnView",
+  "type": " ",
+  "typeName": "",
+  "code": "return %s;",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %m.view"
+ },
+ {
+  "name": "repeatKnownNum",
+  "type": "c",
+  "typeName": "",
+  "code": "for (int %2$s = 0; %2$s < (int)(%1$s); %2$s++) {\r\n%3$s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "repeat %d: %s.inputOnly ++"
+ },
+ {
+  "name": "whileLoop",
+  "type": "c",
+  "typeName": "",
+  "code": "while(%s) {\r\n%s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "while %b"
+ },
+ {
+  "name": "tryCatch",
+  "type": "e",
+  "typeName": "",
+  "code": "try {\r\n%s\r\n} catch (Exception e) {\r\n%s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "try",
+  "spec2": "catch"
+ },
+ {
+  "name": "switchStr",
+  "type": "c",
+  "typeName": "",
+  "code": "switch(%s) {\r\n%s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "switch %s"
+ },
+ {
+  "name": "switchNum",
+  "type": "c",
+  "typeName": "",
+  "code": "switch((int)%s) {\r\n%s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "switch %d"
+ },
+ {
+  "name": "caseStr",
+  "type": "c",
+  "typeName": "",
+  "code": "case %s: {\r\n%s\r\nbreak;\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "case %s"
+ },
+ {
+  "name": "caseNum",
+  "type": "c",
+  "typeName": "",
+  "code": "case ((int)%s): {\r\n%s\r\nbreak;\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "case %d"
+ },
+ {
+  "name": "defaultSwitch",
+  "type": "c",
+  "typeName": "",
+  "code": "default: {\r\n%s\r\nbreak;\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "default"
+ },
+ {
+  "name": "returnString",
+  "type": " ",
+  "typeName": "",
+  "code": "return (%s);",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %s"
+ },
+ {
+  "name": "returnNumber",
+  "type": " ",
+  "typeName": "",
+  "code": "return (%s);",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %d"
+ },
+ {
+  "name": "returnBoolean",
+  "type": " ",
+  "typeName": "",
+  "code": "return (%s);",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "return %b"
+ },
+ {
+  "name": "reverseList",
+  "type": " ",
+  "typeName": "",
+  "code": "Collections.reverse(%s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "reverse %m.list"
+ },
+ {
+  "name": "shuffleList",
+  "type": " ",
+  "typeName": "",
+  "code": "Collections.shuffle(%s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "shuffle %m.list"
+ },
+ {
+  "name": "sortList",
+  "type": " ",
+  "typeName": "",
+  "code": "Collections.sort(%s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "sort %m.listStr"
+ },
+ {
+  "name": "sortListnum",
+  "type": " ",
+  "typeName": "",
+  "code": "Collections.sort(%s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "sort %m.listInt"
+ },
+ {
+  "name": "swapInList",
+  "type": " ",
+  "typeName": "",
+  "code": "Collections.swap(%s, (int)(%s), (int)(%s));",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "swap %m.list position %d with %d"
+ },
+ {
+  "name": "getMapAtPosListmap",
+  "type": "a",
+  "typeName": "",
+  "code": "%2$s.get((int)(%1$s))",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "get Map at %d of %m.listMap"
+ },
+ {
+  "name": "setMapAtPosListmap",
+  "type": " ",
+  "typeName": "",
+  "code": "%3$s.set((int)(%2$s), %1$s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "set %m.varMap at %d of %m.listMap"
+ },
+ {
+  "name": "setAtPosListstr",
+  "type": " ",
+  "typeName": "",
+  "code": "%3$s.set((int)%2$s, %1$s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "set %s at %d of %m.listStr"
+ },
+ {
+  "name": "setAtPosListnum",
+  "type": " ",
+  "typeName": "",
+  "code": "%3$s.set((int)%2$s, %1$s);",
+  "color": "#cc5b22",
+  "palette": "-1",
+  "spec": "set %d at %d of %m.listInt"
+ },
+ {
+  "name": "GsonListTojsonString",
+  "type": "s",
+  "typeName": "",
+  "code": "new Gson().toJson(%s)",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "%m.list to JSON String"
+ },
+ {
+  "name": "GsonStringToListString",
+  "type": " ",
+  "typeName": "",
+  "code": "%2$s = new Gson().fromJson(%1$s, new TypeToken<ArrayList<String>>(){}.getType());",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "JSON %s to %m.listStr"
+ },
+ {
+  "name": "GsonStringToListNumber",
+  "type": " ",
+  "typeName": "",
+  "code": "%2$s = new Gson().fromJson(%1$s, new TypeToken<ArrayList<Double>>(){}.getType());",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "JSON %s to %m.listInt"
+ },
+ {
+  "name": "hashmapGetNumber",
+  "type": "d",
+  "code": "(double)%s.get(%s)",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap get number key %s"
+ },
+ {
+  "name": "hashmapPutNumber",
+  "type": " ",
+  "code": "%s.put(%s, (int)(%s));",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap put key %s value int %d"
+ },
+ {
+  "name": "hashmapPutNumber2",
+  "type": " ",
+  "code": "%s.put(%s, (double)(%s));",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap put key %s value double %d"
+ },
+ {
+  "name": "hashmapGetBoolean",
+  "type": "b",
+  "code": "(boolean)%s.get(%s)",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap get boolean key %s"
+ },
+ {
+  "name": "hashmapPutBoolean",
+  "type": " ",
+  "code": "%s.put(%s, %s);",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap put key %s value %b"
+ },
+ {
+  "name": "hashmapGetMap",
+  "type": "a",
+  "code": "(HashMap<String,Object>)%s.get(%s)",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap get Map key %s"
+ },
+ {
+  "name": "hashmapPutMap",
+  "type": " ",
+  "code": "%s.put(%s, %s);",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap put key %s value %m.varMap"
+ },
+ {
+  "name": "hashmapListstr",
+  "type": "l",
+  "typeName": "List String",
+  "code": "(ArrayList<String>)%s.get(%s)",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap get List String key %s"
+ },
+ {
+  "name": "hashmapPutListstr",
+  "type": " ",
+  "code": "%s.put(%s, %s);",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap put key %s value %m.listStr"
+ },
+ {
+  "name": "hashmapGetListmap",
+  "type": "l",
+  "typeName": "List Map",
+  "code": "(ArrayList<HashMap<String,Object>>)%s.get(%s)",
+  "palette": "-1",
+  "color": "#ee7d15",
+  "spec": "%m.varMap get List Map key %s"
+ },
+ {
+  "name": "hashmapPutListmap",
+  "type": " ",
+  "color": "#ee7d15",
+  "code": "%s.put(%s, %s);",
+  "palette": "-1",
+  "spec": "%m.varMap put key %s value %m.listMap"
+ },
+ {
+  "name": "addSourceDirectly",
+  "type": " ",
+  "typeName": "",
+  "code": "%s",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "add source directly %s.inputOnly"
+ },
+ {
+  "name": "asdBoolean",
+  "type": "b",
+  "typeName": "",
+  "code": "%s",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "boolean %s.inputOnly"
+ },
+ {
+  "name": "asdNumber",
+  "type": "d",
+  "typeName": "",
+  "code": "%s",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "number %s.inputOnly"
+ },
+ {
+  "name": "asdString",
+  "type": "s",
+  "typeName": "",
+  "code": "%s",
+  "color": "#5cb722",
+  "palette": "-1",
+  "spec": "string %s.inputOnly"
+ },
+ {
+  "name": "RepeatKnownNumDescending",
+  "type": "c",
+  "typeName": "",
+  "code": "for (int %2$s = ((int) %1$s - 1); %2$s > -1; %2$s--) {\r\n%3$s\r\n}",
+  "color": "#e1a92a",
+  "palette": "-1",
+  "spec": "repeat %d: %s.inputOnly --"
+ },
+ {
+  "name": "interstitialAdLoad",
+  "type": " ",
+  "typeName": "",
+  "code": "{\r\nAdRequest adRequest = new AdRequest.Builder().build();\r\nInterstitialAd.load(%2$s.this, _ad_unit_id, adRequest, _%1$s_interstitial_ad_load_callback);\r\n}",
+  "color": "#2aa4e2",
+  "palette": "-1",
+  "spec": "%m.interstitialad load in %m.activity"
+ },
+ {
+  "name": "interstitialAdShow",
+  "type": " ",
+  "typeName": "",
+  "code": "if (%1$s != null) {\r\n%1$s.show(%2$s.this);\r\n} else {\r\nSketchwareUtil.showMessage(getApplicationContext(), \"Error: InterstitialAd %1$s hasn't been loaded yet!\");\r\n}",
+  "color": "#2aa4e2",
+  "palette": "-1",
+  "spec": "%m.interstitialad show ad in %m.activity"
+ },
+ {
+  "name": "interstitialAdIsLoaded",
+  "type": "b",
+  "typeName": "",
+  "code": "%1$s != null",
+  "color": "#2aa4e2",
+  "palette": "-1",
+  "spec": "%m.interstitialad is loaded"
+ },
+ {
+  "name": "interstitialAdRegisterFullScreenContentCallback",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#2aa4e2",
+  "palette": "-1",
+  "spec": "%m.interstitialad register fullscreen content callbacks (This Block isn't needed anymore, please remove it)"
+ },
+ {
+  "name": "rewardedAdRegisterFullScreenContentCallback",
+  "type": " ",
+  "typeName": "",
+  "code": "",
+  "color": "#2aa4e2",
+  "palette": "-1",
+  "spec": "%m.videoad register fullscreen content callbacks (This Block isn't needed anymore, please remove it)"
+ },
+ {
+  "name": "getResString",
+  "type": "s",
+  "code": "getString(%s)",
+  "color": "#7c83db",
+  "palette": "-1",
+  "spec": "get String from %m.ResString"
+ }
+]

@@ -1,0 +1,26 @@
+# dependencies and build output
+node_modules/
+app/dist/
+app/release/
+
+# local working data (test workspaces, generated projects, settings)
+testdata/
+work/
+
+# reference material that is not ours to redistribute (Sketchware Pro clone, decompiled classes, screenshots)
+ref/
+
+# third-party tools downloaded during development
+tools/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
