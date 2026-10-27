@@ -1,5 +1,7 @@
 # Sketchware Desktop
 
+> **Work in progress.** This project is still under development and is not finished yet. Some features are incomplete or untested, and things may change or break. The screenshots below show the current interface.
+
 A desktop version of [Sketchware Pro](https://github.com/Sketchware-Pro/Sketchware-Pro) for Windows: build Android apps with the same blocks, the same designer and the same project format, on a big screen.
 
 > Unofficial project, not affiliated with Sketchware or the Sketchware Pro team. See [Credits and license](#credits-and-license).
